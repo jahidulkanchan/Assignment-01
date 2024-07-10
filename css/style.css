@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 body {
   overflow-x: hidden;
@@ -75,11 +76,11 @@ header .primary-btn a {
   background-position: center;
   text-align: center;
 }
-.banner-section .container{
+.banner-section .container {
   padding: 60px 0px;
 }
 .banner-section h1 {
-  color: #0D1321;
+  color: #0d1321;
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 25px;
@@ -105,32 +106,61 @@ header .primary-btn a {
 /* =========Banner End ======= */
 
 /* =========FAQ-section Start ======= */
-.faq-section{
+.faq-section {
   padding: 40px 0px;
   margin: 50px 80px;
   background-color: #f9f9f9;
   min-height: 500px;
+  border-radius: 16px;
 }
 .heading-text h1 {
   font-size: 35px;
   font-weight: 900;
   margin-bottom: 20px;
 }
+.faq-section .container {
+  padding: 40px;
+  margin: 30px 80px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.faq-section .reverse {
+  background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.faq-section .content-part {
+  padding: 5px 15px;
+}
+.faq-section .content-part h2 {
+  color: #0d1321b3;
+  font-size: 36px;
+}
+.faq-section .primary-btn {
+  margin-top: 40px;
+}
+.faq-section .primary-btn a {
+  color: #0d1321;
+  border: 1px solid #0d13217a;
+  opacity: 0.7;
+  border-radius: 0px;
+}
+.faq-section .image-part img {
+  width: 275px;
+}
 
 /* =========FAQ-section End ======= */
 
 /* ========= Our-Mentor-section Start ======= */
-.our-mentor-section{
+.our-mentor-section {
   margin: 90px 0px;
   min-height: 400px;
   flex-direction: column;
 }
-.our-mentor-section .heading-text h1{
+.our-mentor-section .heading-text h1 {
   margin-bottom: 20px;
   font-size: 35px;
   font-weight: 900;
 }
-.our-mentor-section .video-area{
+.our-mentor-section .video-area {
   margin: 0 auto;
   margin-top: 50px;
   padding: 30px;
@@ -138,7 +168,7 @@ header .primary-btn a {
   border: 1px solid #27213636;
   border-radius: 16px;
 }
-.our-mentor-section .video-area video{
+.our-mentor-section .video-area video {
   width: 950px;
 }
 
@@ -228,8 +258,55 @@ header .primary-btn a {
 
 /* ========= Start ======= */
 /* ========= End ======= */
-/* ========= Start ======= */
-/* ========= End ======= */
+
+/* =========Contact-section Start ======= */
+/* #contact-section{
+min-height: 300px;
+
+} */
+#contact-section .contact-form {
+  width: 100%;
+  margin: 50px 80px;
+  padding: 80px 30px;
+  min-height: 230px;
+  border-radius: 16px;
+  background-color: #080a208b;
+  background-blend-mode: overlay;
+  background-image: url("../images/footer.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+}
+#contact-section .contact-form h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#contact-section .contact-form p {
+  color: #ffffff;
+}
+#contact-section input[type="text"] {
+  min-width: 400px;
+  padding: 17px 20px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+#contact-section input[type="button"] {
+  padding: 13px 20px;
+  margin-left: 20px;
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+#contact-section input::placeholder {
+  color: #0d13215b;
+  font-family: "Azeret Mono", monospace;
+}
+/* =========Contact-section End ======= */
 
 /* =========Footer Start ======= */
 footer {
